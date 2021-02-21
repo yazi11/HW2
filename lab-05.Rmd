@@ -6,9 +6,13 @@ output: github_document
 Team Name:
 
 Team Members - Name and Student ID
+
 1.
+
 2.
+
 3.
+
 4.
 
 
@@ -57,7 +61,7 @@ Get the code from the lab document
 ```
 
 
-Confirm that once you have filtered for these characteristics you are left with a data frame with `r nrow(nobel_living)` observations, once again using inline code.
+Confirm that once you have filtered for these characteristics you are left with a data frame with 'nrow(nobel_living)' observations, once again using inline code.
 
 ```{r}
 
