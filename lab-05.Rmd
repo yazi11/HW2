@@ -25,7 +25,7 @@ knitr::opts_chunk$set(eval = TRUE)
 Load tidyverse below
 
 ```{r load-packages, message = FALSE}
-
+library(tidyverse)
 ```
 
 ## Data
@@ -35,7 +35,7 @@ The dataset for this lab can be found as a CSv (comma separated values) file in 
 Get the code from the lab document
 
 ```{r load-data, message = FALSE}
-
+nobel <- read_csv("data/nobel.csv")
 ```
 
 ## Get to know your data
@@ -44,9 +44,10 @@ Get the code from the lab document
 
 
 ```{r}
-
+dim(nobel)
 ```
 
+Each row represents information about a nobel prize winner.
 
 2.  Create a new data frame called `nobel_living` that filters for
 
@@ -57,14 +58,17 @@ Get the code from the lab document
 Get the code from the lab document
 
 ```{r}
-
+nobel_living <- nobel %>%
+mutate(
+country_us = if_else(country == "USA", "USA", "Other")
+)
 ```
 
 
 Confirm that once you have filtered for these characteristics you are left with a data frame with 'nrow(nobel_living)' observations, once again using inline code.
 
 ```{r}
-
+nrow(nobel_living)
 ```
 
 
