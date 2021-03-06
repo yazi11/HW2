@@ -154,8 +154,9 @@ Knit, *commit, and push your changes to GitHub with an appropriate commit messag
 
 
 ```{r}
-
+nobel_living_science %>%               filter(born_country_us=="Other",country_us=="USA")%>%count(born_country) %>%arrange(desc(n))
 ```
+answer:  United kingdom and canada.
 
 Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards and review the md document on GitHub to make sure you're happy with the final state of your work.*
 
