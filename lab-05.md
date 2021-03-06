@@ -128,6 +128,8 @@ nobel_living_science %>%
         born_country_us = if_else(born_country == "USA", "USA", "Other"))
 ```
 
+answer: their number 243.
+
 Knit, *commit, and push your changes to GitHub with an appropriate
 commit message. Make sure to commit and push all changed files so that
 your Git pane is cleared up afterwards.d*
