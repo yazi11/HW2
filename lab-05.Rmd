@@ -147,7 +147,7 @@ nobel_living_science %>%
   geom_bar(stat = "identity" , position = "dodge" ,        orientation = "horizontal")
 
 ```
-
+answer:yes,because in buzzfeed we analyzing the data to search for more understanding the data and get information form it we go deep and deep and make a lot of filtrations to understanding the data.
 Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
 

@@ -156,10 +156,12 @@ nobel_living_science %>%
 ```
 
 ![](lab-05_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
-
-Knit, *commit, and push your changes to GitHub with an appropriate
-commit message. Make sure to commit and push all changed files so that
-your Git pane is cleared up afterwards.*
+answer:yes,because in buzzfeed we analyzing the data to search for more
+understanding the data and get information form it we go deep and deep
+and make a lot of filtrations to understanding the data. Knit, *commit,
+and push your changes to GitHub with an appropriate commit message. Make
+sure to commit and push all changed files so that your Git pane is
+cleared up afterwards.*
 
 6.  In a single pipeline, filter for laureates who won their prize in
     the US, but were born outside of the US, and then create a frequency
